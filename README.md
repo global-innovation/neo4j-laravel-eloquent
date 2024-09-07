@@ -69,8 +69,8 @@ Add the connection defaults:
 
 If you're willing to have migrations:
 
-- create the folder `app/database/labels`
-- modify `composer.json` and add `app/database/labels` to the `classmap` array
+- create the folder `database/labels`
+- modify `composer.json` and add `database/labels` to the `autoload.classmap` array
 - run `composer dump-autoload`
 
 
