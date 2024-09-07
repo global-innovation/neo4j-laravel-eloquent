@@ -30,7 +30,7 @@ Or add the package to your `composer.json` and run `composer update`.
 }
 ```
 
-Add the service provider in `app/config/app.php`:
+Add the service provider in `bootstrap/providers.php`:
 
 ```php
 Vinelab\NeoEloquent\NeoEloquentServiceProvider::class,
