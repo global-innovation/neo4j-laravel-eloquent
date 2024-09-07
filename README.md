@@ -1,8 +1,7 @@
-[![Build Status](https://travis-ci.org/Vinelab/NeoEloquent.svg?branch=master)](https://travis-ci.org/Vinelab/NeoEloquent)
-
 # NeoEloquent
 
-Neo4j Graph Eloquent Driver for Laravel.
+Neo4j Graph Eloquent Driver for Laravel 11+.
+This is a fork from https://github.com/Vinelab/NeoEloquent with all the fixes necessary for Laravel 11+ and PHP 8.2+.
 
 ## Quick Reference
 
@@ -19,14 +18,14 @@ Neo4j Graph Eloquent Driver for Laravel.
 
 ## Installation
 
-Run `composer require vinelab/neoeloquent`
+Run `composer require global-innovation/neo4j-laravel-eloquent`
 
 Or add the package to your `composer.json` and run `composer update`.
 
 ```json
 {
     "require": {
-        "vinelab/neoeloquent": "1.8.*"
+        "global-innovation/neo4j-laravel-eloquent": "~2.0.0"
     }
 }
 ```
