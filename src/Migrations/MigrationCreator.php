@@ -6,16 +6,35 @@ use Illuminate\Database\Migrations\MigrationCreator as IlluminateMigrationCreato
 
 class MigrationCreator extends IlluminateMigrationCreator
 {
+    
+    protected $name = null;
+    
+    /**
+     * Create a new migration at the given path.
+     *
+     * @param  string  $name
+     * @param  string  $path
+     * @param  string|null  $table
+     * @param  bool  $create
+     * @return string
+     *
+     * @throws \Exception
+     */
+    public function create($name, $path, $table = null, $create = false)
+    {
+        $this->name = $name;
+        return parent::create($name, $path, $table = null, $create = false);
+    }
+
     /**
      * Populate the place-holders in the migration stub.
      *
-     * @param string $name
      * @param string $stub
      * @param string $label
      *
      * @return string
      */
-    protected function populateStub($name, $stub, $label)
+    protected function populateStub($stub, $label)
     {
         $stub = str_replace('{{class}}', studly_case($name), $stub);
 
