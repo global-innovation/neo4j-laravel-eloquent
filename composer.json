@@ -1,6 +1,6 @@
 {
     "name": "global-innovation/neo4j-laravel-eloquent",
-    "version": "v2.1.1",
+    "version": "v2.1.2",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": [
         "neo4j",

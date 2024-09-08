@@ -25,7 +25,7 @@ Or add the package to your `composer.json` and run `composer update`.
 ```json
 {
     "require": {
-        "global-innovation/neo4j-laravel-eloquent": "~2.0.0"
+        "global-innovation/neo4j-laravel-eloquent": "~2.1.0"
     }
 }
 ```
