@@ -29,11 +29,4 @@ class MigrationCreator extends IlluminateMigrationCreator
         return $stub;
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public function getStubPath()
-    {
-        return __DIR__.'/stubs';
-    }
 }
