@@ -1,5 +1,5 @@
 {
-    "name": "global-innovation/neo4j-laravel-eloquent",
+    "name": "etolv/neo4j-laravel-eloquent",
     "version": "v2.3.0",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": [
